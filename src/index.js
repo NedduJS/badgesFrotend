@@ -1,6 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { Provider } from 'react-redux';
+import { createStore } from 'redux';
 
-import HelloWorld from './components/HelloWorld';
+import App from './routes/App';
+import reducer from './reducers';
 
-ReactDOM.render(<HelloWorld />, document.getElementById('app'));
+const initialState = {};
+
+const store = createStore(reducer, initialState);
+
+ReactDOM.render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('app')
+);
