@@ -1,0 +1,15 @@
+.register {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 800px) {
+  .register__main {
+    display: flex;
+    flex-direction: row-reverse;
+    flex: 1;
+  }
+  .card {
+    width: 50%;
+  }
+}

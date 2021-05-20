@@ -1,0 +1,27 @@
+.searcher {
+  display: flex;
+  flex-direction: column;
+}
+
+.link {
+  width: fit-content;
+  align-self: flex-end;
+}
+
+Button {
+  margin-right: 2rem;
+  width: 150px;
+}
+
+.input {
+  width: min(80%, 500px);
+  align-self: center;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .link {
+    margin-right: 22vw;
+  }
+}

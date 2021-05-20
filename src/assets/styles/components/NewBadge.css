@@ -1,0 +1,23 @@
+.newBadge {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newBadge p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.newBadge form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newBadge input {
+  margin: 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}

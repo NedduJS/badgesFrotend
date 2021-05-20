@@ -1,0 +1,16 @@
+.header {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1c3643;
+}
+
+.header img {
+  margin: 0 1rem;
+}
+
+.header p {
+  font-size: 2rem;
+  color: white;
+}

@@ -1,0 +1,43 @@
+.home {
+  height: 90vh;
+  background-size: cover;
+  background-color: #1b1b25;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.homeStart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.platziConfLogo {
+  width: min(80vw, 485px);
+  margin-top: 20vh;
+}
+
+.homeTitle {
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+.astronauts {
+  display: none;
+}
+
+Button {
+  margin: 2rem 0;
+}
+
+@media (min-width: 800px) {
+  .astronauts {
+    display: block;
+    width: 30vw;
+  }
+
+  .platziConfLogo {
+    margin-right: 3rem;
+  }
+}
