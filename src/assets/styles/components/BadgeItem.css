@@ -19,5 +19,6 @@ p {
 @media (min-width: 800px) {
   .badgeItem {
     width: 40%;
+    height: 112px;
   }
 }

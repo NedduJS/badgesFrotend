@@ -27,10 +27,6 @@
   display: none;
 }
 
-Button {
-  margin: 2rem 0;
-}
-
 @media (min-width: 800px) {
   .astronauts {
     display: block;

@@ -1,5 +1,3 @@
-require('dotenv').config();
-
-const apiUrl = process.env.API_URL;
+const apiUrl = "https://glacial-gorge-30295.herokuapp.com/user";
 
 export default apiUrl;

@@ -8,5 +8,6 @@
 }
 
 .subheader img {
+  width: auto;
   height: 10vh;
 }

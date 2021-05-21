@@ -14,6 +14,7 @@
 .newBadge form {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .newBadge input {
