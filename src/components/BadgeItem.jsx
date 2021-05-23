@@ -4,7 +4,7 @@ import gravatar from '../utils/gravatar';
 
 import '../assets/styles/components/BadgeItem.css';
 
-const BadgeItem = ({ name, username, jobTitle, email, contribution }) => {
+const BadgeItem = ({ name, twitter, jobTitle, email, contribution }) => {
   return (
     <li className='badgeItem'>
       <img src={gravatar(email)} alt='Gravatar del usuario' />
@@ -12,7 +12,7 @@ const BadgeItem = ({ name, username, jobTitle, email, contribution }) => {
         <p>
           <b>{name}</b>
         </p>
-        <p>{`@${username}`}</p>
+        <p>{`@${twitter}`}</p>
         <p>{jobTitle}</p>
         <p>{contribution}</p>
       </div>

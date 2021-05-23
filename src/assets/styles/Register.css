@@ -5,11 +5,10 @@
 
 @media (min-width: 800px) {
   .register__main {
+    width: 70vw;
+    margin: 2rem auto;
     display: flex;
     flex-direction: row-reverse;
     flex: 1;
-  }
-  .card {
-    width: 50%;
   }
 }

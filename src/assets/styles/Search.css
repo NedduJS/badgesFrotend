@@ -12,6 +12,10 @@ Button {
   width: 150px;
 }
 
+.newBadgeBtn {
+  margin: 2rem 0;
+}
+
 .input {
   width: min(80%, 500px);
   align-self: center;

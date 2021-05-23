@@ -7,8 +7,15 @@
 }
 
 .badgeItem img {
+  height: 80px;
+  width: 80px;
   border-radius: 50%;
   margin-right: 2rem;
+}
+
+.info {
+  width: 100%;
+  text-align: center;
 }
 
 p {

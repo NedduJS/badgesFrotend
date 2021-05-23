@@ -12,13 +12,21 @@
 }
 
 .newBadge form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .newBadge input {
+  width: 80%;
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 0.5rem;
+}
+
+@media (min-width: 800px) {
+  .newBadge {
+    width: 40vw;
+  }
 }
