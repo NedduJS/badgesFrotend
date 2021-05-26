@@ -56,12 +56,6 @@ const NewBadge = (props) => {
           placeholder='Twitter'
           onChange={handleChange}
         />
-        <input
-          name='share'
-          type='text'
-          placeholder='Share something'
-          onChange={handleChange}
-        />
         <Button text='Save' className='button' condition='submit' />
       </form>
     </section>
